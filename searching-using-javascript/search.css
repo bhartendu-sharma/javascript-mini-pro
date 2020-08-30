@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #fff;
+  background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+:root {
+  --main-color-1: #2de372;
+}
+.inner-container {
+  margin: auto;
+  width: 60%;
+  padding: 40px;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.inner-container input {
+  width: 70%;
+  display: block;
+  margin: auto;
+  border: 2px solid var(--main-color-1);
+  border-radius: 20px;
+  background: none;
+  height: 40px;
+  color: #fff;
+  outline: none;
+}
+table {
+  border-collapse: collapse;
+  background: #111;
+
+  /* jab tak border-collapse: collapse; nhi lagayenge tab tak tr par 
+  border property not working */
+  margin: auto;
+  width: 70%;
+}
+table tr td,
+th {
+  display: inline-block;
+  padding: 10px;
+  width: 7%;
+
+  margin: 0 40px 0 40px;
+}
+table tr td:first-child,
+th:first-child {
+  width: 10px;
+}
+table .head-tr {
+  font-weight: 800;
+  text-transform: capitalize;
+  border-bottom: 1px solid #2f2f2f;
+}
