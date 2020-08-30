@@ -1,3 +1,3 @@
 visit on following link
 
-https://bhartendu-sharma.github.io/javascript-mini-pro/searching-using-javascript/search.html
+https://bhartendu-sharma.github.io/javascript-mini-project-collection/searching-using-javascript/search.html
